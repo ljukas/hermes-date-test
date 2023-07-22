@@ -14,8 +14,10 @@
     "assetBundlePatterns": [
       "**/*"
     ],
+    "jsEngine": "jsc",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": false,
+      "bundleIdentifier": "com.ljukas.hermestest"
     },
     "android": {
       "adaptiveIcon": {
@@ -25,6 +27,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2b2e84ea-a93b-45ea-a0bb-c09cbaeb2277"
+      }
     }
   }
 }
